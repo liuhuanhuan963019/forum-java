@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="forum-common" />
+        <module name="forum-api" />
+        <module name="forum-starter" />
+        <module name="forum-infrastructure" />
+        <module name="forum-domain" />
+        <module name="forum-portal" />
+        <module name="forum-facade" />
+        <module name="forum-app" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="forum-api" target="1.8" />
+      <module name="forum-app" target="1.8" />
+      <module name="forum-common" target="1.8" />
+      <module name="forum-domain" target="1.8" />
+      <module name="forum-facade" target="1.8" />
+      <module name="forum-infrastructure" target="1.8" />
+      <module name="forum-java" target="1.8" />
+      <module name="forum-portal" target="1.8" />
+      <module name="forum-starter" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="forum-api" options="-parameters" />
+      <module name="forum-app" options="-parameters" />
+      <module name="forum-common" options="-parameters" />
+      <module name="forum-domain" options="-parameters" />
+      <module name="forum-facade" options="-parameters" />
+      <module name="forum-infrastructure" options="-parameters" />
+      <module name="forum-portal" options="-parameters" />
+      <module name="forum-starter" options="-parameters" />
+    </option>
+  </component>
+</project>
